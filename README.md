@@ -1,20 +1,31 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# Global-Path-kaseddie-AI-Agent
 
-# Run and deploy your AI Studio app
+**Gemini 3 Hackathon Project** – AI-powered job aggregator & document verification agent
 
-This contains everything you need to run your app locally.
+## Overview
+A platform for job seekers in the **GCC** (UAE, Qatar, Saudi Arabia, Kuwait) blue-collar roles (warehouse, maid, delivery, supermarket) and **Europe** professional roles (software engineer, nurse, etc.).  
+- Search/browse jobs on the website  
+- Verify documents securely via WhatsApp  
+- Get AI-assisted visa & travel preparation once verified
 
-View your app in AI Studio: https://ai.studio/apps/drive/1mkQjmfQQudE7udBC4oMYZt1q-qSZ_uL4
+## Features
+- Real-time job aggregation (Bayt.com, Naukrigulf, Indeed, Google Jobs via JobSpy)  
+- Multimodal document verification (passport, GAMCA, PCC, selfie) using Gemini 3 Pro  
+- WhatsApp bot for secure uploads  
+- Optional profile photo enhancement with Nano Banana Pro  
+- Application guidance & visa prep
+
+## Tech Stack
+- Frontend: React + TypeScript + Vite  
+- Backend: FastAPI + JobSpy  
+- AI: Gemini 3 (via Google AI Studio API)  
+- WhatsApp: Meta Cloud API  
+- Database: Firebase (planned)
 
 ## Run Locally
+**Prerequisites**: Node.js, Python 3.10+
 
-**Prerequisites:**  Node.js
-
-
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+### Frontend
+```bash
+npm install
+npm run dev
