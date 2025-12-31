@@ -1,0 +1,8 @@
+{
+  "name": "Copy of GlobalPath Kaseddie AI Agent",
+  "description": "A comprehensive job aggregator and document verification platform for GCC and European roles, featuring AI-powered visa readiness checks.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}
